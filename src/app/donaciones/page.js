@@ -74,7 +74,7 @@ const Page = async () => {
             </p>
           </div>
           <div className="basis-1/2">
-            <div className="w-[45vw] h-[45vw] lg:max-w-[791] lg:max-h-[785] overflow-hidden">
+            <div className="w-[45vw] h-[45vw] lg:w-[35vw] lg:ml-14 xl:ml-20 lg:h-[35vw] 2xl:max-w-[791px] 2xl:max-h-[785px] overflow-hidden">
               <Image
                 src={donaciones.data.yapeqr.url}
                 alt={donaciones.data.yapeqr.alt}
