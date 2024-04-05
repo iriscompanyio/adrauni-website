@@ -90,18 +90,18 @@ const Page = async () => {
         <div className="flex justify-between">
           <div>
             <Image
-              className="w-[35vw] h-[28vw]"
+              className="w-[35vw] h-[28vw] xl:w-full xl:h-full"
               src={donaciones.data.logobcp.url}
               alt={donaciones.data.logobcp.alt}
               width={480}
               height={224}
             />
           </div>
-          <div className="ml-5 mt-[7vw] lg:ml-40 ">
-            <p className="font-harmattan text-[15px] sm:text-[3.5vw] xl:text-[60px] text-black">
+          <div className="ml-5 mt-[7vw] xl:mt-10 lg:ml-40 ">
+            <p className="font-harmattan text-[15px] sm:text-[3.5vw] xl:text-[50px] 2xl:text-[60px] text-black">
               BCP: 19172767079097
             </p>
-            <p className="font-harmattan text-[15px] sm:text-[3.5vw] xl:text-[60px] text-black">
+            <p className="font-harmattan text-[15px] sm:text-[3.5vw] xl:text-[50px] 2xl:text-[60px] text-black">
               CCI: 00219117276707909758
             </p>
           </div>
