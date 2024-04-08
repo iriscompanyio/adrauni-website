@@ -1,0 +1,24 @@
+version: "3.9"
+
+networks:
+  nginx-proxy:
+    name: iot-net
+    external: true
+
+services:
+  adrauni-website:
+    image: iris/adrauni-website
+    container_name: adrauni-website
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      - VIRTUAL_HOST=adrauni.pet,www.adrauni.pet
+      - VIRTUAL_PORT=3000
+      - LETSENCRYPT_HOST=adrauni.pet,www.adrauni.pet
+      - LETSENCRYPT_EMAIL=jcanahuirev@gmail.com
+    ports:
+      - 3000:3000
+    networks:
+      - nginx-proxy
