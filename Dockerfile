@@ -10,13 +10,14 @@ RUN npm install --frozen-lockfile
 
 # Rebuild the source code only when needed
 FROM node:18.17.0-alpine3.18 AS builder
+RUN apk add --no-cache cpulimit
 WORKDIR /app
 
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
 RUN npx prisma generate
-RUN npm run build
+RUN cpulimit -l 60 -i -- npm run build
 
 # Production image, copy all the files and run next
 FROM node:18.17.0-alpine3.18 AS runner
