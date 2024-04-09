@@ -32,7 +32,6 @@ RUN adduser -S nextjs -u 1001
 # COPY --from=builder /app/next.config.js ./
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/customtypes ./customtypes
-COPY --from=builder /app/fonts ./fonts
 COPY --from=builder /app/package.json ./package.json
 COPY --from=builder /app/next.config.mjs ./next.config.mjs
 
