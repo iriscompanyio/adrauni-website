@@ -15,7 +15,7 @@ const Page = async () => {
     <Layout footerdata={footerdata} navdata={navdata}>
       <section className="relative my-5 xl:my-20">
         <div className="bg-white filter brightness-[0.6] h-[40vw] xl:h-[1025px] flex items-center mx-1 xl:mx-10">
-          <div className="grid grid-cols-3 gap-5 h-[40vw] xl:h-[1020px]">
+          <div className="grid grid-cols-3 gap-5 h-[40vw] w-full xl:h-[1020px]">
             <Image
               className="inset-0 w-[40vw] h-[40vw] xl:w-full xl:h-full object-cover"
               src={rescatistas.data.portada1.url}
