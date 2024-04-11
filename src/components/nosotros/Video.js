@@ -10,7 +10,7 @@ const Video = ({ video }) => {
       <video
         src={video.url}
         controls={playvideo}
-        className="w-[289px] sm:w-[320px] md:w-[520px] h-[114px] sm:h-[190px] md:h-[300px] lg:w-full lg:h-full"
+        className="w-[289px] sm:w-[320px] md:w-[520px] h-[114px] sm:h-[190px] md:h-[300px] lg:w-full lg:h-[550px]"
       ></video>
       <div
         className={`absolute inset-0 mix-blend-color ${playvideo ? "bg-transparent opacity-100 -z-10 " : " bg-[#008CDB] opacity-55 z-0"}`}

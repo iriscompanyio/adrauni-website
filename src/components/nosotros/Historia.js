@@ -18,7 +18,7 @@ const Historia = ({ nosotros }) => {
 
   return (
     <section className="my-16 bg-[#F6F7F6] lg:h-[808px] flex flex-col lg:flex-row mx-3 sm:mx-10">
-      <div className="basis-full lg:basis-1/2 flex relative mt-10 lg:mt-0 mx-4 sm:mx-12 md:mx-24 lg:mx-10 h-full">
+      <div className="basis-full lg:basis-1/2 flex relative mt-10 lg:mt-0 mx-[3.5%] sm:mx-12 md:mx-24 lg:mx-10 h-full">
         <div className="w-full h-[161px] sm:h-[280px] lg:h-full">
           <Image
             className="absolute z-10 lg:top-[30%] xl:top-0 w-[214px] h-[161px] sm:w-[300px] sm:h-[280px] lg:w-[45vw] lg:h-[45vh] xl:w-full xl:h-full object-cover xl:object-contain"

@@ -55,13 +55,13 @@ const Page = async () => {
           </div>
         </div>
       </section>
-      <section className="lg:h-[1300px] xl:h-[1450px] 2xl:h-[1550px] flex flex-col items-center mx-1 lg:mx-4 border-[1px] border-[#F49606] py-5 lg:py-20">
+      <section className="lg:h-[1150px] xl:h-[1250px] flex flex-col items-center mx-1 lg:mx-4 border-[1px] border-[#F49606] py-5 lg:py-20">
         <h1 className="font-plusJakartaSans font-extrabold text-[25px] lg:text-[60px] text-[#FF9F00] text-center">
           TRANSFERENCIAS BANCARIAS
         </h1>
-        <div className="flex justify-between my-20 lg:my-40 w-full">
+        <div className="flex justify-between my-20 lg:my-28 w-full">
           <div className="basis-1/2 flex flex-col justify-center items-center">
-            <div className="w-[25vw] h-[25vw] lg:max-w-[791px] lg:max-h-[785px] overflow-hidden flex justify-center items-center">
+            <div className="w-[25vw] h-[25vw] xl:w-[20vw] xl:h-[20vw] lg:max-w-[791px] lg:max-h-[785px] overflow-hidden flex justify-center items-center">
               <Image
                 className=""
                 src={donaciones.data.yapeicono.url}
@@ -75,7 +75,7 @@ const Page = async () => {
             </p>
           </div>
           <div className="basis-1/2 flex flex-col items-center justify-center">
-            <div className="w-[45vw] h-[45vw] md:w-[40vw] md:h-[40vw] lg:ml-14 xl:ml-20 lg:h-[28vw] lg:w-[28vw] 2xl:max-w-[791px] 2xl:max-h-[785px] overflow-hidden ">
+            <div className="w-[45vw] h-[45vw] sm:w-[40vw] sm:h-[40vw] md:w-[32vw] md:h-[32vw] lg:h-[22.5vw] lg:w-[22.5vw] 2xl:max-w-[791px] 2xl:max-h-[785px] overflow-hidden ">
               <Image
                 src={donaciones.data.yapeqr.url}
                 alt={donaciones.data.yapeqr.alt}
@@ -83,7 +83,7 @@ const Page = async () => {
                 height={785}
               />
             </div>
-            <p className="font-plusJakartaSans font-extrabold text-[10px] sm:text-[2.5vw] 2xl:text-[50px] text-[#353535] text-center">
+            <p className="font-plusJakartaSans font-extrabold text-[10px] sm:text-[2.5vw] 2xl:text-[40px] text-[#353535] text-center">
               ESCANEA EL QR Y HAZ TUS DONACIONES!
             </p>
           </div>
@@ -174,20 +174,20 @@ const Page = async () => {
           </div>
         </div>
       </section>
-      <section className="py-10 sm:py-16 md:py-20 lg:h-[595px] bg-[#F49606] flex flex-col justify-center items-center gap-14">
-        <p className="font-harmattan text-[19px] sm:text-[25px] md:text-[35px] lg:text-[50px] xl:text-[60px] text-white">
+      <section className="py-10 sm:py-16 md:py-20 lg:h-[465px] bg-[#F49606] flex flex-col justify-center items-center gap-14">
+        <p className="font-harmattan text-[19px] sm:text-[25px] md:text-[35px] lg:text-[50px] xl:text-[55px] text-white">
           Consultas acerca de las donaciones contactar con:
         </p>
-        <p className="font-harmattan text-[19px] sm:text-[25px] md:text-[35px] lg:text-[50px] xl:text-[60px] text-white">
+        <p className="font-harmattan text-[19px] sm:text-[25px] md:text-[35px] lg:text-[50px] xl:text-[55px] text-white">
           Angelly Liseth Llamocca Torres
         </p>
-        <p className="font-harmattan text-[19px] sm:text-[25px] md:text-[35px] lg:text-[50px] xl:text-[60px] text-white">
+        <p className="font-harmattan text-[19px] sm:text-[25px] md:text-[35px] lg:text-[50px] xl:text-[55px] text-white">
           Contacto: 983449774
         </p>
       </section>
       <section className="mt-24 mb-20 lg:mb-44">
         <div className="flex justify-center">
-          <h1 className="font-plusJakartaSans font-extrabold text-[25px] sm:text-[35px] md:text-[45px] lg:text-[68px] text-black text-center max-w-[1110px]">
+          <h1 className="font-plusJakartaSans font-extrabold text-[25px] sm:text-[35px] md:text-[45px] lg:text-[65px] text-black text-center max-w-[1110px]">
             ¿Cómo se usan todas las donanciones que ingresan?
           </h1>
         </div>
@@ -200,21 +200,21 @@ const Page = async () => {
               height={573}
             />
           </div>
-          <div className="flex flex-col space-y-5 lg:space-y-10 xl:space-y-20 basis-1/2 xl:basis-1/3 lg:mt-[5vw] xl:mt-0">
-            <p className="font-plusJakartaSans font-semibold text-[10px] sm:text-[15px] md:text-[21px] lg:text-[17px] xl:text-[25px]">
+          <div className="flex flex-col space-y-5 lg:space-y-10 xl:space-y-16 basis-1/2 xl:basis-1/3 lg:mt-[5vw] xl:mt-0">
+            <p className="font-plusJakartaSans font-semibold text-[10px] sm:text-[15px] md:text-[21px] lg:text-[17px] xl:text-[22px]">
               Alimento: Es toda la comida de perro y gato, aquí se incluye
               comida especila de algunos perritos viejos con problemas renales,
               la cual es necesaria para mantener un buen estado de salud.
             </p>
-            <p className="font-plusJakartaSans font-semibold text-[10px] sm:text-[15px] md:text-[21px] lg:text-[17px] xl:text-[25px]">
+            <p className="font-plusJakartaSans font-semibold text-[10px] sm:text-[15px] md:text-[21px] lg:text-[17px] xl:text-[22px]">
               Veterinaria: Las visitas médicas, así como exámenes médicos
               (rutinarios o de emergencia), cirugías, etc.{" "}
             </p>
-            <p className="font-plusJakartaSans font-semibold text-[10px] sm:text-[15px] md:text-[21px] lg:text-[17px] xl:text-[25px]">
+            <p className="font-plusJakartaSans font-semibold text-[10px] sm:text-[15px] md:text-[21px] lg:text-[17px] xl:text-[22px]">
               Medicinas: Algunos de nuestros perritos requieren de medicina de
               manera vitalicia por problemas crónicos.
             </p>
-            <p className="font-plusJakartaSans font-semibold text-[10px] sm:text-[15px] md:text-[21px] lg:text-[17px] xl:text-[25px]">
+            <p className="font-plusJakartaSans font-semibold text-[10px] sm:text-[15px] md:text-[21px] lg:text-[17px] xl:text-[22px]">
               Higiene: Son antipulgas, shampoo, etc.
             </p>
           </div>

@@ -55,26 +55,26 @@ const Page = async () => {
         </div>
       </section>
       <section className="my-12 lg:my-44">
-        <h1 className="my-10 lg:my-40 text-center font-plusJakartaSans font-extrabold text-[25px] sm:text-[40px] md:text-[60px] lg:text-[80px] text-[#FF9F00]">
+        <h1 className="my-10 lg:my-28 text-center font-plusJakartaSans font-extrabold text-[25px] sm:text-[40px] md:text-[60px] text-[#FF9F00]">
           CONTÁCTANOS
         </h1>
         <div className="flex">
           <div className="basis-1/2 lg:w-1/2">
             <Image
-              className="inset-0 w-[60vw] h-[60vw] lg:w-full lg:h-full object-cover"
+              className="inset-0 w-[60vw] h-[60vw] lg:w-[50vw] lg:h-[50vw] 2xl:h-[40vw] object-cover"
               src={contacto.data.contactofoto.url}
               alt={contacto.data.contactofoto.alt}
               width={847}
               height={827}
-              style={{ objectPosition: "60% 50%" }}
+              style={{ objectPosition: "65% 50%" }}
             />
           </div>
-          <div className="bg-[#D3E4F6] lg:h-[828px] basis-1/2">
-            <h2 className="font-plusJakartaSans font-extrabold text-[10px] sm:text-[20px] md:text-[40px] lg:text-[68px] text-center text-black 2xl:w-[862px] my-[8vw] md:my-[5vw] lg:my-28">
+          <div className="bg-[#D3E4F6] lg:h-[50vw] 2xl:h-[40vw] basis-1/2">
+            <h2 className="font-plusJakartaSans font-extrabold text-[10px] sm:text-[20px] md:text-[40px] lg:text-[45px] xl:text-[55px] text-center text-black 2xl:w-[862px] my-[8vw] md:my-[5vw] lg:my-10 xl:my-16 2xl:my-32">
               ¿Tienes alguna pregunta?
             </h2>
-            <div className="flex flex-col 2xl:flex-row md:justify-around items-center mt-[8vw] lg:mt-32">
-              <div className="flex flex-col items-center gap-5 lg:gap-20">
+            <div className="flex flex-col 2xl:flex-row md:justify-around items-center mt-[8vw] lg:mt-10 xl:mt-16">
+              <div className="flex flex-col items-center gap-5 lg:gap-10 xl:gap-12">
                 <div className="flex lg:ml-10 items-center gap-5">
                   <p>
                     <Mail />
@@ -92,7 +92,7 @@ const Page = async () => {
                   </p>
                 </div>
               </div>
-              <div className="flex gap-2 md:gap-5 mt-[10vw] lg:mt-20">
+              <div className="flex gap-2 md:gap-5 mt-[10vw] lg:mt-10 xl:mt-20">
                 <a href="https://www.facebook.com/adrauni" target="_blank">
                   <FbContacto />
                 </a>

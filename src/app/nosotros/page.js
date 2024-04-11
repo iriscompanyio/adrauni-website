@@ -19,14 +19,14 @@ const Page = async () => {
       <main>
         <Portada nosotros={nosotros} />
         <Historia nosotros={nosotros} />
-        <section className="my-4 flex flex-col md:flex-row lg:h-[607px]">
+        <section className="my-4 flex flex-col md:flex-row lg:h-[507px]">
           <div className="basis-1/2 flex flex-col justify-center mx-10 lg:mx-0 lg:ml-[5%] order-2 md:order-1">
-            <p className="font-acme font-normal text-[15px] sm:text-[20px] md:text-[25px] lg:text-[38px] text-[#000000] w-full md:max-w-[710px]">
+            <p className="font-acme font-normal text-[15px] sm:text-[20px] md:text-[25px] lg:text-[30px] text-[#000000] w-full md:max-w-[710px]">
               Somos ADRAUNI (Agrupación para la Defensa y Respeto hacia los
               Animales de la Universidad Nacional de Ingeniería), lo conformamos
               alumnos y egresados de todas las facultades de la UNI.
             </p>
-            <p className="font-harmattan font-normal text-[10px] sm:text-[18px] md:text-[23px] lg:text-[30px] text-[#666666] w-full md:max-w-[683px] mt-[20px] lg:mt-[65px]">
+            <p className="font-harmattan font-normal text-[10px] sm:text-[18px] md:text-[23px] lg:text-[28px] text-[#666666] w-full md:max-w-[683px] mt-[20px] lg:mt-[65px]">
               Buscamos darle calidad de vida a los perritos y gatitos que viven
               en el UNI, así como concientizar la tenencia responsable de las
               mascotas.
@@ -43,7 +43,7 @@ const Page = async () => {
             <Video video={nosotros.data.videoadra} />
           </div>
         </section>
-        <section className="lg:h-[1220px] bg-[#F6F7F6] mx-5 md:mx-16 my-5 lg:my-20">
+        <section className="lg:h-[1220px] bg-[#F6F7F6] mx-5 md:mx-16 my-5 lg:my-10">
           <h1 className="text-center font-harmattan font-bold text-[30px] md:text-[65px] xl:text-[108px] pt-8 md:pt-20 xl:pt-36 sm:pb-10">
             NUESTRA MISIÓN
           </h1>
