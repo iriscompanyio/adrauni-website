@@ -44,7 +44,7 @@ const Page = async () => {
         </div>
       </section>
       <section className="my-8 lg:my-32">
-        <p className="text-[10px] sm:text-[20px] md:text-[30px] lg:text-[45px] text-center font-inter font-medium text-[#494949]">
+        <p className="text-[10px] sm:text-[20px] md:text-[30px] lg:text-[40px] text-center font-inter font-medium text-[#494949]">
           Juntos, podemos rescatar, rehabilitar y realojar a las mascotas
           necesitadas. Gracias por apoyar nuestra misión de llevar alegría a las
           familias a través de la adopción de mascotas.

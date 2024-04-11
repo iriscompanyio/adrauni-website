@@ -70,10 +70,10 @@ const Portada = ({ index }) => {
         />
       </div>
       <div className="sm:basis-1/2 md:basis-3/5 max-w-[185px] sm:max-w-[330px] md:max-w-[450px] lg:max-w-[600px] xl:max-w-[710px] 2xl:max-w-[1042px] max-h-[246px] absolute right-0 top-[90px] sm:top-[150px] md:top-[160px] xl:top-[250px] md:mr-[2%] lg:mr-[5%] 2xl:mr-0">
-        <strong className="text-[15px] sm:text-[25px] md:text-[30px] lg:text-[45px] xl:text-[50px] 2xl:text-[65px] font-plusJakartaSans font-extrabold">
+        <strong className="text-[15px] sm:text-[25px] md:text-[30px] lg:text-[45px] xl:text-[50px] 2xl:text-[60px] font-plusJakartaSans font-extrabold">
           Cuidando a los peludos de la UNI y{" "}
         </strong>
-        <strong className="text-[#F49606] text-[15px] sm:text-[25px] md:text-[30px] lg:text-[45px] xl:text-[50px] 2xl:text-[65px] font-plusJakartaSans font-extrabold">
+        <strong className="text-[#F49606] text-[15px] sm:text-[25px] md:text-[30px] lg:text-[45px] xl:text-[50px] 2xl:text-[60px] font-plusJakartaSans font-extrabold">
           Promoviendo la tendencia Responsable.
         </strong>
       </div>

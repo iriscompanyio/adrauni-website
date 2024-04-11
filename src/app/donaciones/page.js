@@ -55,26 +55,27 @@ const Page = async () => {
           </div>
         </div>
       </section>
-      <section className="lg:h-[1700px] flex flex-col items-center mx-1 lg:mx-4 border-[1px] border-[#F49606] py-5 lg:py-20">
+      <section className="lg:h-[1300px] xl:h-[1450px] 2xl:h-[1550px] flex flex-col items-center mx-1 lg:mx-4 border-[1px] border-[#F49606] py-5 lg:py-20">
         <h1 className="font-plusJakartaSans font-extrabold text-[25px] lg:text-[60px] text-[#FF9F00] text-center">
           TRANSFERENCIAS BANCARIAS
         </h1>
         <div className="flex justify-between my-20 lg:my-40 w-full">
           <div className="basis-1/2 flex flex-col justify-center items-center">
-            <div className="w-[25vw] h-[25vw] lg:max-w-[791] lg:max-h-[785] overflow-hidden">
+            <div className="w-[25vw] h-[25vw] lg:max-w-[791px] lg:max-h-[785px] overflow-hidden flex justify-center items-center">
               <Image
+                className=""
                 src={donaciones.data.yapeicono.url}
                 alt={donaciones.data.yapeicono.alt}
                 width={236}
                 height={214}
               />
             </div>
-            <p className="font-harmattan text-[15px] sm:text-[3vw] 2xl:text-[75px] text-black">
+            <p className="font-harmattan text-[15px] sm:text-[3vw] 2xl:text-[60px] text-black">
               Yape: 949 771 031
             </p>
           </div>
-          <div className="basis-1/2">
-            <div className="w-[45vw] h-[45vw] lg:w-[35vw] lg:ml-14 xl:ml-20 lg:h-[35vw] 2xl:max-w-[791px] 2xl:max-h-[785px] overflow-hidden">
+          <div className="basis-1/2 flex flex-col items-center justify-center">
+            <div className="w-[45vw] h-[45vw] md:w-[40vw] md:h-[40vw] lg:ml-14 xl:ml-20 lg:h-[28vw] lg:w-[28vw] 2xl:max-w-[791px] 2xl:max-h-[785px] overflow-hidden ">
               <Image
                 src={donaciones.data.yapeqr.url}
                 alt={donaciones.data.yapeqr.alt}
@@ -82,7 +83,7 @@ const Page = async () => {
                 height={785}
               />
             </div>
-            <p className="font-plusJakartaSans font-extrabold text-[10px] sm:text-[2.5vw] 2xl:text-[65px] text-[#353535] text-center">
+            <p className="font-plusJakartaSans font-extrabold text-[10px] sm:text-[2.5vw] 2xl:text-[50px] text-[#353535] text-center">
               ESCANEA EL QR Y HAZ TUS DONACIONES!
             </p>
           </div>
@@ -90,18 +91,18 @@ const Page = async () => {
         <div className="flex justify-between">
           <div>
             <Image
-              className="w-[35vw] h-[28vw] xl:w-full xl:h-full"
+              className="w-[35vw] h-[24vw] xl:w-full xl:h-full"
               src={donaciones.data.logobcp.url}
               alt={donaciones.data.logobcp.alt}
               width={480}
               height={224}
             />
           </div>
-          <div className="ml-5 mt-[7vw] xl:mt-10 lg:ml-40 ">
-            <p className="font-harmattan text-[15px] sm:text-[3.5vw] xl:text-[50px] 2xl:text-[60px] text-black">
+          <div className="ml-5 mt-[7vw] xl:mt-10 lg:ml-40">
+            <p className="font-harmattan text-[15px] sm:text-[3.5vw] xl:text-[50px] text-black">
               BCP: 19172767079097
             </p>
-            <p className="font-harmattan text-[15px] sm:text-[3.5vw] xl:text-[50px] 2xl:text-[60px] text-black">
+            <p className="font-harmattan text-[15px] sm:text-[3.5vw] xl:text-[50px] text-black">
               CCI: 00219117276707909758
             </p>
           </div>
