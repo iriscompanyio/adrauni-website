@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-
+import { PrismicRichText } from "@prismicio/react";
 const Historia = ({ nosotros }) => {
   const [scrollX, setScrollX] = useState("");
 
@@ -57,28 +57,9 @@ const Historia = ({ nosotros }) => {
             HISTORIA
           </span>
           <div className="flex justify-center lg:justify-normal">
-            <p className="font-bold font-harmattan text-[9px] sm:text-[13px] md:text-[16px] lg:text-[18px] text-[#666666] w-[349px] sm:w-[450px] md:w-[500px] lg:w-[550px] text-left">
-              It gives us great pleasure to introduce to you the Maatram
-              Educational and Charitable Trust. We are a group of friends whose
-              ideal in life is to help where we can, how we can and whenever we
-              can. This help is focussed towards the poor and the needy who live
-              among us within our society and endeavours to bring about a change
-              in their life - a &quot;MAATRAM&ldquo;.
-              <br />
-              <br />
-              This is a organisation run by volunteers who are sincere and well
-              established professionals and who are interested to see that every
-              bit of donations reach the needy and brilliant students, without
-              which, they would have perished in the darkness of the Social
-              abyss.
-              <br /> <br />
-              We are extremely gratefull for your kindness and the generosity of
-              your donation. With your kind co-operation and support we are
-              Locating bright and needy students from the rural areas and
-              arranging to give them financial assistance for higher studies.
-              Provides food, shelter, clothing and medical aid coupled with love
-              and affection for old age People.
-            </p>
+            <div className="font-bold font-harmattan text-[9px] sm:text-[13px] md:text-[16px] lg:text-[18px] text-[#666666] w-[349px] sm:w-[450px] md:w-[500px] lg:w-[550px] text-left">
+              <PrismicRichText field={nosotros.data.texthistoria} />
+            </div>
           </div>
         </div>
       </div>

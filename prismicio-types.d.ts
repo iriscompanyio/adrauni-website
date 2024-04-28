@@ -1001,6 +1001,17 @@ interface NosotrosDocumentData {
   mision5: prismic.ImageField<never>;
 
   /**
+   * texthistoria field in *nosotros*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: Ingresa el texto de historia
+   * - **API ID Path**: nosotros.texthistoria
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  texthistoria: prismic.RichTextField;
+
+  /**
    * Slice Zone field in *nosotros*
    *
    * - **Field Type**: Slice Zone
