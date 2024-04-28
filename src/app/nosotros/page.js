@@ -43,11 +43,11 @@ const Page = async () => {
             <Video video={nosotros.data.videoadra} />
           </div>
         </section>
-        <section className="lg:h-[1220px] bg-[#F6F7F6] mx-5 md:mx-16 my-5 lg:my-10">
+        <section className="lg:h-[700px] xl:h-[1050px] bg-[#F6F7F6] mx-5 md:mx-16 my-5 lg:my-10">
           <h1 className="text-center font-harmattan font-bold text-[30px] md:text-[65px] xl:text-[108px] pt-8 md:pt-20 xl:pt-36 sm:pb-10">
             NUESTRA MISIÓN
           </h1>
-          <div className="mt-10 lg:mt-40 flex flex-col space-y-10 md:space-y-0 md:flex-row justify-evenly">
+          <div className="mt-10 lg:mt-16 flex flex-col space-y-10 md:space-y-0 md:flex-row justify-evenly">
             <div className="flex flex-col justify-center items-center">
               <div className="bg-[#1A8FE3] rounded-full opacity-90 w-[90px] h-[98px] flex items-center justify-center">
                 <Image
